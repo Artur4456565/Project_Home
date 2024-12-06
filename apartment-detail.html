@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Apartment Details - ArchiCorp</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Include Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+</head>
+<body>
+   <!-- Header -->
+<header>
+    <div class="container header-container">
+        <div class="logo">
+            <a href="index.html">
+                <!-- Replace with your logo image -->
+                <img src="logo.png" alt="ArchiCorp Logo">
+            </a>
+        </div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html">Apartments</a></li>
+                <li><a href="#">Projects</a></li>
+                <li><a href="#">Investments</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        <!-- Mobile Menu Icon -->
+        <div class="menu-toggle" id="mobile-menu">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+    </div>
+</header>
+
+
+    <!-- Apartment Details Section -->
+    <main>
+        <div class="container apartment-details-container">
+            <div class="apartment-images">
+                <!-- Image Gallery -->
+                <div class="main-image">
+                    <img id="currentImage" src="placeholder.jpg" alt="Apartment Image">
+                </div>
+                <div class="thumbnail-images">
+                    <!-- Thumbnails will be generated dynamically -->
+                </div>
+            </div>
+            <div class="apartment-info">
+                <h1 id="apartmentTitle">Apartment Title</h1>
+                <p class="price" id="apartmentPrice">Price: PLN</p>
+                <p class="address" id="apartmentAddress">Address, City, Country</p>
+                <p class="description" id="apartmentDescription">
+                    Apartment description goes here.
+                </p>
+                <ul class="details-list" id="detailsList">
+                    <!-- Details will be populated dynamically -->
+                </ul>
+                <!-- Contact Agent Button -->
+                <button class="contact-agent-btn">Contact Agent</button>
+            </div>
+        </div>
+    </main>
+
+  <!-- Footer -->
+<footer>
+    <div class="container footer-container">
+        <div class="footer-left">
+            <a href="index.html" class="footer-logo">
+                <!-- Replace with your logo image -->
+                <img src="logo.png" alt="ArchiCorp Logo">
+            </a>
+            <p>&copy; 2023 ArchiCorp. All rights reserved.</p>
+        </div>
+        <div class="footer-right">
+            <ul class="footer-links">
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Terms of Service</a></li>
+                <li><a href="#">Sitemap</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+            <div class="social-media">
+                <!-- Social media icons -->
+                <a href="https://www.facebook.com/archicorp.cats" target="_blank">
+                    <img src="facebook-icon.png" alt="Facebook">
+                </a>
+                <a href="https://www.instagram.com/archicorp.cats" target="_blank">
+                    <img src="instagram-icon.png" alt="Instagram">
+                </a>
+                <a href="https://www.tiktok.com/@archicorp.cats" target="_blank">
+                    <img src="tiktok-icon.png" alt="TikTok">
+                </a>
+                <a href="https://www.youtube.com/@archicorp-cats" target="_blank">
+                    <img src="youtube-icon.png" alt="YouTube">
+                </a>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+    <!-- Include JavaScript file -->
+    <script src="script.js"></script>
+</body>
+</html>
